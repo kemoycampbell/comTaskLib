@@ -15,6 +15,7 @@
 	
 	//Instance the libraryClas
 	$library = new Library($config);
+	$library->_construct($config);
 	$connection = $library->connect();
 	
 ?>

@@ -19,12 +19,10 @@
 		//create a database instance  constructor
 		public function _construct($config)
 		{
-			$this->dbname       =$config['dbname'];
+			$this->dbname       = $config['dbname'];
 			$this->dbusername   = $config['dbusername'];
 			$this->dbpassword   = $config['dbpassword'];
 			$this->host         = $config['host'];
-			
-			echo $this->dbname ;	
 		}
 		
 		/**------------------------------------------------------------
@@ -43,13 +41,8 @@
 			
 			//attempt to connect
 			try{
-					global $host;
-					global $dbname;
-					global $dbusername;
-					global $dbpassword;
-					global $host;
-					$databaseConnectString = 'mysql:host='.$host.';dbname='.$dbname;
-					$conn = new PDO($databaseConnectString,$dbusername,$dbpassword);
+					$databaseConnectString = 'mysql:host='.$this->host.';dbname='.$this->dbname;
+					$conn = new PDO($databaseConnectString,$this->dbusername,$this->dbpassword);
 					$conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 					return $conn;//database successful connected
 			   }

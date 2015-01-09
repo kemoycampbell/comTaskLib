@@ -9,8 +9,8 @@
 	
 	//change those to your database configuration
 	$dbname='example';//database name
-	$dbusername='yourusername';//database username
-	$dbpassword='yourpassword';//database password
+	$dbusername='';//database username
+	$dbpassword='';//database password
 	$host ='localhost';//database host
 	
 	//do not need any configuration
