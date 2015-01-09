@@ -15,4 +15,6 @@ I  have included a database that was used to test and yield the results for test
 In order to set up a testing, change the username and password and host in the config.php and upload the database included here to your
 server. 
 #
+More functions are to be added. This is just the beginning
+#
 Feel free to provide feedback or report any bug.
