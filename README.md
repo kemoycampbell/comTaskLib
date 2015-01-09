@@ -1,7 +1,12 @@
-# phpLibrary
-a library to execute the common task instead of writing the code from scratch every time we need them such as database connection, connection status, insert,
-delete, update, isCredentialValid, etc, get connectionError Message,generate secure hash and many more
-
+# comTaskLib
+comTaskLib is a lightweight php library that is designed to eliminate the pain of writing codes from scratch
+#
+to peform basic tasks such as insert, delete, update, check whether a user credential is validate, etc. 
+#
+This library is designed using Object Oriented Programming(OOP) principle, flexible and has included methods that are readily available  
+#
+to you. ComTaskLib aims on speeding up programming and enable to get developers get more things done in a shorter time.
+#
 This script has three classes:
 #
 Config.php -> use to config the database:
