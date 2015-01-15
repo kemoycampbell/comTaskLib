@@ -176,5 +176,7 @@
 	$foo='hello world'; $name='Kemoy Campbell'; $sourceType='Open Source';
 	$library->getDataOfVariables($foo,$name,$sourceType);
 	
+	
+	
 
 ?>
