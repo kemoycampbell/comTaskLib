@@ -4,7 +4,7 @@ to peform basic tasks such as insert, delete, update, check whether a user crede
 This library is designed using Object Oriented Programming(OOP) principle, flexible and has included methods that are readily available to You.  
 ##Application
 ComTaskLib aims on speeding up programming and enable to get developers get more things done in a shorter time.
-####Divisions
+####Divisions/installing/setting up
 This script has three files:
 1. Config.php -> use to config the database:
 2. library.php-> has  the instance of the libraryClass.php and the config. This class doesnt requires any changes.
@@ -15,7 +15,7 @@ This script has three files:
 >More functions are to be added. This is just the beginning
 
 #Usage
-1. Just Do It Like This 
+This is just a usage function to test the connection.
 ```php
 <?php
 
