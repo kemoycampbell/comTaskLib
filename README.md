@@ -1,21 +1,31 @@
 # comTaskLib
-comTaskLib is a lightweight php library that is designed to eliminate the pain of writing codes from scratch
-to peform basic tasks such as insert, delete, update, check whether a user credential is validate, basic String Validation Operation , etc. 
-This library is designed using Object Oriented Programming(OOP) principle, flexible and has included methods that are readily available to You.  
+
+_comTaskLib_ is a lightweight PHP library that is designed to eliminate the pain of writing code from scratch
+to peform basic tasks. These tasks, among others, include:
+* insertion.
+* deletion.
+* updating.
+* validity checking of user credentials.
+* basic string validation operations.
+
+This library is designed using the Object Oriented Programming ("OOP") principle. It is flexible includes methods that are readily available to you.
+
 ##Application
-ComTaskLib aims on speeding up programming and enable to get developers get more things done in a shorter time.
-####Divisions/installing/setting up
+
+_comTaskLib_ aims to speed up programming and enable developers to get more things done in a shorter amount of time.
+
+####Divisions, Installation, and Setting Up
+
 This script has three files:
-1. Config.php -> use to config the database:
-2. library.php-> has  the instance of the libraryClass.php and the config. This class doesnt requires any changes.
-3. libraryClass.php-> has the definition of all common functions
-> I  have included a database that was used to test and yield the results for test.php
-> In order to set up a testing, change the username and password and host in the config.php and upload the database > included here to your
-> server. 
->More functions are to be added. This is just the beginning
+
+1. [`config.php`](https://github.com/kemoycampbell/comTaskLib/blob/master/config.php) - use to configure the database:
+2. [`library.php`](https://github.com/kemoycampbell/comTaskLib/blob/master/library.php) - contains the instance of the `libraryClass.php` and the config. This class does not require any changes.
+3. [`libraryClass.php`](https://github.com/kemoycampbell/comTaskLib/blob/master/libraryClass.php) - contains the definition of all common functions
+
+> I  have included a database that was used to test and yield the results for `test.php`. In order to set up testing, change the username and password and host in `config.php` and upload the database included here to your server. More functionality will be added in future releases.
 
 #Usage
-This is just a usage function to test the connection.
+You may use the following function to test the connection:
 ```php
 <?php
 
@@ -35,7 +45,9 @@ else
 echo 'Connection Status :failed';
 }
 ```
-for any usage it is important to call the library like $library->someMethod()
+Remember that it is important to call out to the library as follows:
+
+    $library->someMethod()
 
 #Contributing
-Feel free to provide feedback or report any bug.
+Feel free to provide feedback or report any bugs.
