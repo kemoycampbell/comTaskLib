@@ -196,6 +196,31 @@
 			} 
 		 }//end of select
 		 
+		 /* This functions enable the ability to add advance query such as join, subquery, coorelated query, non-correlated query and all other advanced queries
+			parameters:
+					$query-> the sql query
+					$binding-> the binding paramters
+			Returns a PDO stmt if the statement was succeeded. 
+		 */
+		 
+		 public function advanceQuery($query, $binding)
+		 {
+			$stmt = $connection->prepare($query);
+			
+			try
+			{
+				$stmt->execute($binding);
+				return $stmt;
+			}
+			
+			catch(PDOException $e)
+			{
+			
+				echo '<br/>ERROR: '.$e->getMessage().'<br/>';
+				return false;
+			}
+		 }
+		 
 		 /*-----------------------------------------
 		    This function deletes... returns the stmt if 
 			it was succesful delete else echo error message
