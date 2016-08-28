@@ -1,5 +1,6 @@
 # comTaskLib
 
+#####Caution: This is an older version that is abandoned. See the new version at https://github.com/kemoycampbell/amazo/
 _comTaskLib_ is a lightweight PHP library that is designed to eliminate the pain of writing code from scratch
 to peform basic tasks. These tasks, among others, include:
 * insertion.
